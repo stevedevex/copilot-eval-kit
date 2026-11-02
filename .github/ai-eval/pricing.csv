@@ -1,0 +1,23 @@
+# USD per 1M tokens. 1 GitHub AI Credit = $0.01.
+# Source: docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing (read 2026-11-02).
+# Rates change, so re-check that page before relying on the numbers. Add any model your team uses.
+# Default (short-context) tier only. Some models double their rates above a long-context threshold.
+# Leave cache_write empty if the model has no separate cache-write price.
+model,category,input,cached_input,cache_write,output
+Claude Haiku 4.5,Versatile,1.00,0.10,1.25,5.00
+Claude Haiku 5.5,Lightweight,0.10,0.01,0.125,0.50
+Claude Sonnet 4.6,Versatile,3.00,0.30,3.75,15.00
+Claude Sonnet 5,Versatile,2.00,0.20,2.50,10.00
+Claude Sonnet 5.5,Versatile,2.00,0.10,2.50,10.00
+Claude Opus 4.8,Powerful,5.00,0.50,6.25,25.00
+Claude Opus 5,Powerful,5.00,0.50,6.25,25.00
+Claude Opus 5.5,Powerful,4.00,0.20,5.00,20.00
+Claude Fable 5.1,Powerful,10.00,0.25,12.50,50.00
+GPT-5.3-Codex,Powerful,1.75,0.175,,14.00
+GPT-5.4 nano,Lightweight,0.20,0.02,,1.25
+GPT-6 Luna,Lightweight,0.10,0.01,0.125,0.50
+GPT-6 Sol,Powerful,2.00,0.20,2.50,10.00
+GPT-6.1 Sol,Powerful,2.00,0.10,2.50,10.00
+Gemini 3.8 Flash,Versatile,0.75,0.075,,3.75
+Gemini 4 Argon,Powerful,2.00,0.10,,10.00
+MAI-Code-1.1-Flash,Lightweight,0.20,0.02,,1.20
